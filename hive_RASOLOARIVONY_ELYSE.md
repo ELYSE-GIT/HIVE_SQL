@@ -27,12 +27,6 @@ Exception raised from Shell command java.lang.Exception: Failed to execute Execu
 Error: Error while compiling statement: FAILED: ParseException line 1:16 cannot recognize input near 'Execute' 'a' 'SQL' (state=42000,code=40000)
 0: jdbc:hive2://hadoop-master01.efrei.online:>
 
-------------------------------------------------------------------------------------
-# Connecter sur Hive :
-!connect jdbc:hive2://hadoop-master01.efrei.online:2181,hadoop-master02.efrei.online:2181,hadoop-master03.efrei.online:2181/;serviceDiscoveryMode=zooKeeper;zooKeeperNamespace=hiveserver2
-
-# identifiant et mot de passe
-------------------------------------------------------------------------------------
 
 # la liste des commmande de beeline
 $ !help
